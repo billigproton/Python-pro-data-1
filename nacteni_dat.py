@@ -3,7 +3,7 @@ nakupy = pandas.read_csv('nakupy.csv')
 print(nakupy)
 
 nakupy.info() # Základní přehled o hodnotách a sloupcích
-print(nakupy.describe()) # základní statistický přehled o Data Framu, obaleno do printu - z nějakého důvodu nefungovalo
+print(nakupy.describe()) # základní statistický přehled o datech, obaleno do printu - z nějakého důvodu nefungovalo
 print(nakupy.shape) # Počet řádků, sloupců 
 print(nakupy.columns) # Názvy všech sloupců
 

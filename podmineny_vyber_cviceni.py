@@ -1,3 +1,5 @@
+# Česká jména 2
+
 import pandas
 
 jmena = pandas.read_csv('jmena.csv')
@@ -26,7 +28,7 @@ print(slovane_hebrejci1)
 
 print(slovane_hebrejci1.count())
 
-    # Kolik takovách jmen je? - cesta přes len()
+    # Kolik takových jmen je? - cesta přes len()
 
 pocet_radku = len(slovane_hebrejci1)
 
@@ -37,4 +39,9 @@ print(pocet_radku)
 svatek_prosinec = jmena[jmena['svátek'].isin(['1.12', '2.12', '3.12'])]
 
 print(svatek_prosinec)
+
+
+
+
+
 

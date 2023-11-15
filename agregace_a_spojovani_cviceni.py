@@ -40,7 +40,7 @@ pohlavi_studentu = pandas.merge(studenti, jmena, on=['jméno']) # bude to inner 
 
 # 7 - Kolik na fakultě studuje mužů a žen?
 
-pocet_muzu_zen = pohlavi_studentu.groupby('pohlaví').count()
+pocet_muzu_zen = pohlavi_studentu.groupby('pohlaví')['pohlaví'].count()
 
 print(pocet_muzu_zen)
 

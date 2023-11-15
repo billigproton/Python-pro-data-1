@@ -39,9 +39,3 @@ print(pocet_radku)
 svatek_prosinec = jmena[jmena['svátek'].isin(['1.12', '2.12', '3.12'])]
 
 print(svatek_prosinec)
-
-
-
-
-
-
